@@ -1,0 +1,74 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.App {
+  
+  max-width: 600px;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  border-radius: 40px;
+  padding: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: black;
+}
+
+.weather-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.city-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  width: 70%;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4facfe;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #00f1fefd;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+.weather-info {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.city-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.temperature, .weather-description {
+  font-size: 18px;
+}
